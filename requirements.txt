@@ -1,0 +1,20 @@
+# Dependências principais
+pandas>=2.0.0
+requests>=2.31.0
+openpyxl>=3.1.0
+
+# Opcional: para scraping com Selenium (se necessário)
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+
+# Opcional: para análise e visualização
+# matplotlib>=3.8.0
+# seaborn>=0.13.0
+
+# Opcional: para dashboard web
+# streamlit>=1.28.0
+# plotly>=5.17.0
+
+# Opcional: para APIs
+# fastapi>=0.104.0
+# uvicorn>=0.24.0

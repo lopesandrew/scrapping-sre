@@ -1,0 +1,595 @@
+-----------------------
+Campo: CNPJ_Emissor
+-----------------------
+   Descrição : CNPJ do emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: CNPJ_Lider
+-----------------------
+   Descrição : CNPJ do Líder
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: Custodiante
+-----------------------
+   Descrição : Nome do Custodiante
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Emissao
+-----------------------
+   Descrição : Número da Emissão
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Escriturador
+-----------------------
+   Descrição : Escriturador
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Gestor
+-----------------------
+   Descrição : Nome do Gestor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Nome_Emissor
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Lider
+-----------------------
+   Descrição : Nome do Líder
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Numero_Processo
+-----------------------
+   Descrição : Número do Processo Administrativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: Oferta_inicial
+-----------------------
+   Descrição : Indica se é uma oferta inicial (IPO)
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Publico_alvo
+-----------------------
+   Descrição : Público-alvo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Tipo_Oferta
+-----------------------
+   Descrição : Tipo da Oferta: se primária, secundária ou mista
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: Valor_Mobiliario
+-----------------------
+   Descrição : Valor mobiliário
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Qtde_VM_Instit_Intermed_Partic_Consorcio_Distrib
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Num_Invest_Entidade_Previdencia_Privada
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Data_deliberacao_aprovou_oferta
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Rito_Requerimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 10
+
+-----------------------
+Campo: Num_Invest_Investidor_Estrangeiro
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Identificacao_devedores_coobrigados
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Demais_Pessoa_Juridica
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Tipo_lastro
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Demais_Pessoa_Juridica_Emissora_Partic_
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Entidade_Previdencia_Privada
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Pessoa_Natural
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Endereco_emissor_rede_mundial_computadores
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Destinacao_recursos
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Clube_Investimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Num_Invest_Instit_Financ_Emissora_Partic_Consorcio
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Fundos_Investimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Demais_Instit_Financ
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Bookbuilding
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 3
+
+-----------------------
+Campo: Qtde_VM_Clube_Investimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Demais_Pessoa_Juridica_Emissora_Partic_Con
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Data_Encerramento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Regime_fiduciario
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Instit_Intermed_Partic_Consorcio_Distri
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Titulo_incentivado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Tipo_requerimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Possibilidade_revolvencia
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Fundos_Investimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Status_Requerimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Agente_fiduciario
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Descricao_garantias
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Data_Registro
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Descricao_lastro
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Pessoa_Natural
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Valor_Total_Registrado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 2
+
+-----------------------
+Campo: Avaliador_Risco
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Qtde_VM_Instit_Financ_Emissora_Partic_Consorcio
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Num_Invest_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emis
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Administrador
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Reabertura_serie
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Ativos_alvo
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Qtde_Total_Registrada
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: Numero_Requerimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: bigint
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Processo_SEI
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Qtde_VM_Demais_Pessoa_Juridica
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qdte_VM_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emiss_P
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Investidor_Estrangeiro
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Oferta_vasos_comunicantes
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Demais_Instit_Financ
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Qtde_VM_Companhia_Seguradora
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Data_requerimento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Mercado_negociacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: FIDC_nao_padronizado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Titulo_padronizado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Regime_distribuicao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Grupo_Coordenador
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 25
+
+-----------------------
+Campo: Tipo_societario
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+
+-----------------------
+Campo: Num_Invest_Companhia_Seguradora
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 19
+   Scale     : 0
+
+-----------------------
+Campo: Titulo_classificado_como_sustentavel
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : -1
+

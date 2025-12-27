@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados (arquivos grandes)
+*.csv
+*.xls
+*.xlsx
+data/output/*.xlsx
+data/output/*.csv
+
+# Logs
+logs/
+*.log
+
+# Temporários
+*.tmp
+*.bak
