@@ -639,11 +639,11 @@ def main():
         # Limpar caracteres ilegais antes de salvar
         df_encerradas = limpar_caracteres_ilegais(df_encerradas)
         df_encerradas.to_excel(ENCERRADAS_XLSX, index=False, sheet_name='Encerradas')
-        print(f"✓ {ENCERRADAS_XLSX.name}: {len(df_encerradas)} séries, {len(df_encerradas.columns)} colunas")
+        print(f"OK {ENCERRADAS_XLSX.name}: {len(df_encerradas)} series, {len(df_encerradas.columns)} colunas")
 
     if not df_pipeline.empty:
         df_pipeline.to_excel(PIPELINE_XLSX, index=False, sheet_name='Pipeline')
-        print(f"✓ {PIPELINE_XLSX.name}: {len(df_pipeline)} registros")
+        print(f"OK {PIPELINE_XLSX.name}: {len(df_pipeline)} registros")
 
     # Resumo
     print("\n" + "=" * 60)

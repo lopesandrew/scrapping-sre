@@ -31,3 +31,7 @@ logs/
 # Temporários
 *.tmp
 *.bak
+
+# Claude Code
+.claude/
+nul
